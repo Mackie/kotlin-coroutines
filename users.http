@@ -1,0 +1,23 @@
+# curl --header "Content-Type: application/json"
+#  --request POST
+#  --data '{"user":"xyz","text":"xyz"}'
+#  http://localhost:8080/messages
+POST http://localhost:8080/users/
+Content-Type: application/json
+
+{"id":"xyz","name":"xyz"}
+
+###
+
+# curl -v http://localhost:8080/users?delay=5000
+GET http://localhost:8080/users/?delay=5000
+
+###
+
+GET http://localhost:8080/users/3435fff
+
+
+
+
+
+

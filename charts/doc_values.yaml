@@ -1,0 +1,14 @@
+appName: user-service
+namespace: default
+appVersion: latest
+replicaCount: 1
+image:
+  registry: m4cki3
+  pullPolicy: Never
+kafka:
+  # Confluent server url
+  bootstrapServers:
+  # SASL username
+  username:
+  # SASL password
+  password:

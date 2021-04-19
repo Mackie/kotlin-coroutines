@@ -1,0 +1,4 @@
+build/
+charts/values.yaml
+.idea
+.gradle
